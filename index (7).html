@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bynoline Agencies | Performance Marketing & Unfair Growth</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Inter font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0A0A10; /* Near-black background */
+            color: #E0E7FF; /* Off-white for text */
+            line-height: 1.65;
+            overflow-x: hidden;
+        }
+        .text-accent {
+            color: #7C3AED; /* Deep Violet/Purple */
+        }
+        .bg-accent {
+            background-color: #7C3AED;
+        }
+        .bg-gradient-header {
+            background-image: linear-gradient(to right, #7C3AED, #9333EA);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: #7C3AED; /* Fallback color */
+        }
+        /* Custom styling for the 'Proof' images and cards */
+        .proof-card {
+            background-color: #1A1A23;
+            border: 1px solid #3730A3; /* Darker blue border */
+            border-radius: 1.5rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+        }
+        .proof-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px rgba(124, 58, 237, 0.3); /* Accent shadow on hover */
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            box-shadow: 0 0 30px rgba(124, 58, 237, 0.8);
+            transform: scale(1.03);
+        }
+        .testimonial-box {
+            background-color: #1A1A23;
+            border-left: 6px solid #7C3AED;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+        }
+        /* Mobile specific font size for massive headline (Further reduced) */
+        @media (max-width: 640px) {
+            .hero-headline {
+                font-size: 3rem; /* 48px - significantly more comfortable than 56px/64px */
+                line-height: 1.1;
+            }
+            /* Mobile adjustment for secondary large headers */
+            .section-headline-mobile {
+                font-size: 2.25rem; /* 36px */
+            }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header / Navbar -->
+    <header class="py-4 px-4 sm:px-8 sticky top-0 z-10 bg-[#0A0A10]/95 backdrop-blur-sm border-b border-[#3730A3]">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="text-2xl sm:text-3xl font-extrabold text-white">
+                Byno<span class="text-accent">line</span> <span class="text-gray-400">Agencies</span>
+            </div>
+            <a href="#audit" class="px-4 py-2 text-sm sm:px-6 sm:py-2 bg-accent text-white font-bold rounded-full transition duration-300 hover:bg-[#6D28D9] transform hover:scale-105">
+                Book Your Audit
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section: The Confrontation -->
+    <section class="min-h-[90vh] flex items-center justify-center p-4 sm:p-8">
+        <div class="max-w-6xl mx-auto text-center py-20">
+            <p class="text-xl sm:text-3xl font-bold mb-4 text-accent tracking-widest uppercase">
+                Stop Chasing Clicks. Start Banking Profits.
+            </p>
+            <h1 class="hero-headline text-5xl sm:text-9xl font-black leading-none mb-8">
+                The Secret Formula For <span class="bg-gradient-header">UNFAIR</span> Market <strong>DOMINATION.</strong>
+            </h1>
+            <p class="text-xl sm:text-2xl max-w-4xl mx-auto mb-12 text-gray-300 font-medium">
+                Stop measuring clicks. We measure the <strong>velocity of capital return</strong>. Bynoline is the performance engine that demands a <strong>5x minimum ROI</strong> or we walk away.
+            </p>
+
+            <a href="#audit" class="cta-button w-full sm:w-auto inline-block px-10 py-4 text-xl sm:text-2xl bg-accent text-white font-extrabold uppercase rounded-xl shadow-lg shadow-violet-700/50 hover:bg-[#6D28D9] active:scale-95">
+                Steal Our Blueprint Before Your Competition Does.
+            </a>
+            
+            <p class="mt-6 text-sm text-gray-500"><strong>Urgent:</strong> Currently accepting 3 new clients for Q4. Allocation is first-come, first-served.</p>
+        </div>
+    </section>
+
+    <!-- Proof / Testimonial Section -->
+    <section class="py-20 sm:py-32 px-4 sm:px-8 bg-[#1A1A23] border-t border-b border-[#3730A3]">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="section-headline-mobile text-4xl sm:text-7xl font-black text-center mb-16 leading-tight text-white">
+                Your Bank Account Doesn't Lie. <strong>Real Numbers. Zero Fluff.</strong>
+            </h2>
+
+            <!-- Testimonial Highlight -->
+            <div class="max-w-4xl mx-auto p-6 sm:p-8 testimonial-box rounded-xl mb-20">
+                <blockquote class="text-xl sm:text-3xl italic font-semibold text-white">
+                    "Before Bynoline, our CPA was a disaster. Within 45 days, they cut our costs by 60% and drove a consistent 5.1x ROAS. They aren't an agency; they are a <strong>Profit Center</strong>."
+                </blockquote>
+                <div class="mt-6 flex items-center justify-end">
+                    <p class="text-lg sm:text-xl font-bold text-accent">- David K.,</p>
+                    <p class="text-lg sm:text-xl font-medium text-gray-400 ml-2">CEO, E-Commerce Disruptor</p>
+                </div>
+            </div>
+
+
+            <!-- Image Grid of Results (Mobile: 2 columns, Desktop: 4 columns) -->
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
+
+                <!-- Image Holder 1: ROI/ROAS Chart -->
+                <div class="proof-card">
+                    <img 
+                        src="https://placehold.co/800x600/7C3AED/1A1A23?text=IMAGE+1%3A+5.1x+ROAS+Chart"
+                        alt="Screenshot showing massive Return on Ad Spend (ROAS) metric." 
+                        class="w-full h-auto rounded-t-xl aspect-[4/3] object-cover"
+                    >
+                    <div class="p-4 sm:p-5 text-center">
+                        <p class="text-3xl sm:text-4xl font-extrabold text-accent">+310%</p>
+                        <p class="text-gray-400 text-xs sm:text-sm mt-1">YoY Revenue Growth for SaaS Client</p>
+                    </div>
+                </div>
+
+                <!-- Image Holder 2: CPA/CPL Reduction Proof -->
+                <div class="proof-card">
+                    <img 
+                        src="https://placehold.co/800x600/9333EA/1A1A23?text=IMAGE+2%3A+CPA+Reduction+Graph"
+                        alt="Graph showing a drastic reduction in Cost Per Acquisition (CPA)." 
+                        class="w-full h-auto rounded-t-xl aspect-[4/3] object-cover"
+                    >
+                    <div class="p-4 sm:p-5 text-center">
+                        <p class="text-3xl sm:text-4xl font-extrabold text-accent">-60%</p>
+                        <p class="text-gray-400 text-xs sm:text-sm mt-1">Average Cost Per Acquisition Reduction</p>
+                    </div>
+                </div>
+                
+                <!-- Image Holder 3: Lead Quality/Volume Proof -->
+                <div class="proof-card">
+                    <img 
+                        src="https://placehold.co/800x600/7C3AED/1A1A23?text=IMAGE+3%3A+LEAD+VOLUME+DASHBOARD"
+                        alt="Screenshot showing high volume of qualified leads generated." 
+                        class="w-full h-auto rounded-t-xl aspect-[4/3] object-cover"
+                    >
+                    <div class="p-4 sm:p-5 text-center">
+                        <p class="text-3xl sm:text-4xl font-extrabold text-accent">7k+</p>
+                        <p class="text-gray-400 text-xs sm:text-sm mt-1">Qualified Leads Generated Last Quarter</p>
+                    </div>
+                </div>
+
+                <!-- Image Holder 4: Creative Performance Proof -->
+                <div class="proof-card">
+                    <img 
+                        src="https://placehold.co/800x600/9333EA/1A1A23?text=IMAGE+4%3A+VIRAL+AD+CREATIVE"
+                        alt="A screenshot of a successful, high-converting ad creative." 
+                        class="w-full h-auto rounded-t-xl aspect-[4/3] object-cover"
+                    >
+                    <div class="p-4 sm:p-5 text-center">
+                        <p class="text-3xl sm:text-4xl font-extrabold text-accent">1.8%</p>
+                        <p class="text-gray-400 text-xs sm:text-sm mt-1">Average E-commerce Conversion Rate</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- The Method Section: Precision and Strategy -->
+    <section class="py-20 sm:py-32 px-4 sm:px-8">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="section-headline-mobile text-4xl sm:text-6xl font-black text-center mb-16 leading-tight text-white">
+                The <span class="text-accent">Bynoline Black Box:</span> Where Precision Destroys Guesswork.
+            </h2>
+            
+            <div class="space-y-8 sm:space-y-12">
+                <!-- Step 1 -->
+                <div class="flex flex-col md:flex-row bg-[#1A1A23] p-6 sm:p-8 rounded-xl border border-[#3730A3] items-start">
+                    <div class="flex-shrink-0 text-accent text-4xl sm:text-5xl font-black mr-6 w-12 h-12 sm:w-16 sm:h-16 flex items-center justify-center rounded-full bg-[#7C3AED]/20 border border-accent mb-4 md:mb-0">
+                        1
+                    </div>
+                    <div>
+                        <h3 class="text-2xl sm:text-3xl font-bold mb-2 text-white">THE CAPITAL MAPPING: STOP THE BLEEDING.</h3>
+                        <p class="text-base sm:text-lg text-gray-400">
+                            We reverse-engineer your unit economics to find the <strong>exact profit ceiling</strong> of your paid acquisition channels. We don't guess budgets; we model capital flow to ensure every dollar is allocated to <strong>maximum gain.</strong> This is why 99% of your competitors fail.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="flex flex-col md:flex-row bg-[#1A1A23] p-6 sm:p-8 rounded-xl border border-[#3730A3] items-start">
+                    <div class="flex-shrink-0 text-accent text-4xl sm:text-5xl font-black mr-6 w-12 h-12 sm:w-16 sm:h-16 flex items-center justify-center rounded-full bg-[#7C3AED]/20 border border-accent mb-4 md:mb-0">
+                        2
+                    </div>
+                    <div>
+                        <h3 class="text-2xl sm:text-3xl font-bold mb-2 text-white">THE CREATIVE WEAPONIZATION: CLICK TO CONVERT.</h3>
+                        <p class="text-base sm:text-lg text-gray-400">
+                            Our creative team builds high-velocity ads that are scientifically engineered to bypass ad fatigue and speak directly to the bottom-of-funnel buyer. We treat creative as a <strong>mathematical variable</strong>, designed to generate cash, not awards.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="flex flex-col md:flex-row bg-[#1A1A23] p-6 sm:p-8 rounded-xl border border-[#3730A3] items-start">
+                    <div class="flex-shrink-0 text-accent text-4xl sm:text-5xl font-black mr-6 w-12 h-12 sm:w-16 sm:h-16 flex items-center justify-center rounded-full bg-[#7C3AED]/20 border border-accent mb-4 md:mb-0">
+                        3
+                    </div>
+                    <div>
+                        <h3 class="text-2xl sm:text-3xl font-bold mb-2 text-white">THE SCALING FIREWALL: GROWTH, GUARANTEED.</h3>
+                        <p class="text-base sm:text-lg text-gray-400">
+                            We deploy proprietary tracking and optimization scripts to detect performance dips before they cost you thousands. We scale aggressively and defensively, ensuring your growth curve is <strong>steep and brutally sustainable.</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section: Audit Request -->
+    <section id="audit" class="py-20 sm:py-32 px-4 sm:px-8 bg-[#0A0A10] border-t border-[#3730A3]">
+        <div class="max-w-3xl mx-auto text-center p-8 sm:p-12 border-4 border-accent rounded-xl shadow-2xl shadow-violet-700/40 bg-[#1A1A23]">
+            <h2 class="text-3xl sm:text-6xl font-black mb-6 leading-tight text-white">
+                Warning: This Audit Will Expose Your <strong>Leaking Ad Spend.</strong>
+            </h2>
+            <p class="text-lg sm:text-2xl text-gray-400 mb-8 sm:mb-10">
+                Submit your details for a <strong>Free, Unfiltered Performance Audit</strong>. We'll show you exactly where the money is going, and how Bynoline recovers it.
+            </p>
+
+            <form id="audit-form" class="space-y-4">
+                <input 
+                    type="text" 
+                    id="company" 
+                    placeholder="Your Company Name / Current Monthly Ad Spend"
+                    required 
+                    class="w-full p-4 rounded-lg bg-[#0A0A10] border border-[#3730A3] text-white placeholder-gray-500 focus:ring-2 focus:ring-accent focus:border-accent transition duration-300"
+                >
+                <input 
+                    type="email" 
+                    id="email-audit" 
+                    placeholder="Best Email for High-Level Strategy"
+                    required 
+                    class="w-full p-4 rounded-lg bg-[#0A0A10] border border-[#3730A3] text-white placeholder-gray-500 focus:ring-2 focus:ring-accent focus:border-accent transition duration-300"
+                >
+                <button 
+                    type="submit" 
+                    class="cta-button w-full px-12 py-5 text-xl sm:text-2xl bg-accent text-white font-extrabold uppercase rounded-xl shadow-xl shadow-violet-700/70 hover:bg-[#6D28D9] active:scale-95 tracking-wider"
+                >
+                    GET MY FREE PERFORMANCE AUDIT NOW
+                </button>
+            </form>
+
+            <div id="message-box" class="mt-6 text-base text-center font-semibold text-accent" style="display: none;"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-10 text-gray-500 text-sm bg-[#0A0A10] border-t border-[#3730A3]">
+        <div class="max-w-4xl mx-auto px-4">
+            <p class="mb-2">&copy; 2025 Bynoline Agencies. Performance Engineered.</p>
+            <p class="text-gray-600">Disclaimer: Past performance is not a guarantee of future results, but it's a damn good indicator.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('audit-form');
+            const messageBox = document.getElementById('message-box');
+
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const company = document.getElementById('company').value;
+                const email = document.getElementById('email-audit').value;
+                
+                // Show confirmation message
+                messageBox.style.display = 'block';
+                messageBox.innerHTML = `
+                    <svg class="inline w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <strong>AUDIT REQUEST SUBMITTED.</strong> We will assess your data and reach out to ${email} within 48 hours.
+                `;
+
+                // Clear form fields
+                form.reset();
+            });
+        });
+    </script>
+
+</body>
+</html>
+
